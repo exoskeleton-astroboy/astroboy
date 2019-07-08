@@ -8,7 +8,6 @@ module.exports = (args = {}) =>
     whiteSpace: "  ",
     rootPath: ".",
     outDist: "package",
-    register: "http://registry.npm.s.qima-inc.com",
     // useYarn: true,
     outTransform: json => ({
       ...json,

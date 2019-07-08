@@ -1,6 +1,6 @@
 {
   "name": "@exoskeleton/astroboy",
-  "version": "0.0.0-rc.1",
+  "version": "0.0.1-rc.1",
   "main": "index.js",
   "repository": "https://github.com/exoskeleton-astroboy/astroboy.git",
   "author": "Big Mogician <bigmogician@outlook.com>",
