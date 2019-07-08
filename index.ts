@@ -7,10 +7,10 @@ import {
   RENDER_RESULT_OPTIONS,
   JSON_RESULT_OPTIONS
 } from "@exoskeleton/core";
-import { readFileString } from "@utils";
+import { readFileString } from "@core/utils";
 import { CoreConfigReader } from "@core/configs/config.default";
-import { CoreContext } from "@modules/context";
-import { CallService } from "@modules/service/call";
+import { CoreContext } from "@core/modules/context";
+import { CallService } from "@core/modules/service/call";
 
 function bindDI(ctor: any) {
   if (!ctor) return undefined;

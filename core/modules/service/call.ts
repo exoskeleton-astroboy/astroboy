@@ -1,6 +1,6 @@
 import { AstroboyContext, Bundles } from "@exoskeleton/core";
 import { Constructor } from "@bonbons/di";
-import { DubboConfig, IAjaxOptions, AjaxConfig } from "@typings/service";
+import { DubboConfig, IAjaxOptions, AjaxConfig } from "@core/typings/service";
 import { Service } from "astroboy";
 
 /**

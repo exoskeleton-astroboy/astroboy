@@ -1,7 +1,7 @@
 import { Bundles } from "@exoskeleton/core";
 import { Constructor } from "@bonbons/di";
 import { IAstroboyContext } from "astroboy/definitions";
-import { CtxFactory } from "@utils";
+import { CtxFactory } from "@core/utils";
 
 export interface CoreContext extends IAstroboyContext {}
 
