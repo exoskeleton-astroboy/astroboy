@@ -3,7 +3,6 @@ import defaultFramework from "astroboy";
 import { Constructor } from "@bonbons/di";
 import {
   Server,
-  JsonResolvers,
   RENDER_RESULT_OPTIONS,
   JSON_RESULT_OPTIONS
 } from "@exoskeleton/core";
@@ -108,7 +107,7 @@ export class Core extends Server {
     super.initOptions();
     this.option(JSON_RESULT_OPTIONS, {
       format: true,
-      keyResolver: JsonResolvers.camelcase,
+      keyResolver: null,
       jsonTemplate: {
         code: 0,
         message: "success",

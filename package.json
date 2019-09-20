@@ -1,18 +1,18 @@
 {
   "name": "@exoskeleton/astroboy",
-  "version": "0.0.1-rc.1",
+  "version": "0.0.2-beta.2",
   "main": "index.js",
   "repository": "https://github.com/exoskeleton-astroboy/astroboy.git",
   "author": "Big Mogician <bigmogician@outlook.com>",
   "license": "MIT",
   "dependencies": {
-    "@exoskeleton/core": "0.0.2",
+    "@exoskeleton/core": "0.0.3-beta.1",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "@bigmogician/publisher": "1.0.9",
+    "@bigmogician/publisher": "^1.0.12",
     "@compodoc/compodoc": "^1.1.8",
-    "@exoskeleton/cli": "^0.0.6",
+    "@exoskeleton/cli": "^0.0.8",
     "@types/lodash": "^4.14.121",
     "astroboy": "1.1.0-beta.6",
     "ts-node": "^7.0.1",

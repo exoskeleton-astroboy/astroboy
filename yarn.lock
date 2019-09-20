@@ -25,10 +25,10 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@bigmogician/publisher@1.0.9":
-  version "1.0.9"
-  resolved "https://registry.npmjs.org/@bigmogician/publisher/-/publisher-1.0.9.tgz#6d1515e8a92f0bca871c0bc89dd5671f2e8c4c0a"
-  integrity sha512-5vmkABbDzSixjqWfY+EN4W4n/R8ITwQPiDKo+SHGh19tyPtMe28BjmRwRNQ1kV0369q9pwYcHpDC08CcUZYwTw==
+"@bigmogician/publisher@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.npmjs.org/@bigmogician/publisher/-/publisher-1.0.12.tgz#b4812572d92ca3c90bc14c1bc7075360caaa38f0"
+  integrity sha512-Jw2UHQm7g/WOcn+dhekQ5FzeeHjfob0doW/SQjbLuERaRIarfucxeEV8XuJuT8g0LMzBBAXdLCuXKItONJc1bQ==
   dependencies:
     chalk "^2.4.2"
     commander "^2.19.0"
@@ -101,10 +101,10 @@
     is-absolute "^1.0.0"
     is-negated-glob "^1.0.0"
 
-"@exoskeleton/cli@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.npmjs.org/@exoskeleton/cli/-/cli-0.0.6.tgz#d3dc19f8d0c7fa7a57fdb99319d47158d08d38f7"
-  integrity sha512-OvqfUdSCsha+tdEqRlCn3e79rimNFn29EDRh7vxO780E5dvooJ8eRYE5fMzaDkwAlj5gVndeA+FlJmbJxi9iQw==
+"@exoskeleton/cli@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.npmjs.org/@exoskeleton/cli/-/cli-0.0.8.tgz#55db5535bb0ae632435563e38be8ca67bc02d479"
+  integrity sha512-aUpA7ixfMhfUl03h5wSgRPkIj/KdFhFt27mMNwkOPEgTaeNZcd/yAhaIt0GSCBWpL4FXkP1PTiznIVhKx/ddpQ==
   dependencies:
     chalk "^2.4.2"
     chokidar "^3.0.1"
@@ -112,13 +112,15 @@
     kill-port "^1.5.1"
     lodash "^4.17.11"
     rimraf "^2.6.3"
+    ts-node "7.0.1"
+    tsconfig-paths "3.8.0"
     tslib "^1.10.0"
     uuid "^3.3.2"
 
-"@exoskeleton/core@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@exoskeleton/core/-/core-0.0.2.tgz#e88e3dcf095f430f8d1daa4483385c6eeebd770a"
-  integrity sha512-nZzenf9MFMjGIOFzXy0pJ/cr+oxApyL/QxoZtbe0yN4uITgDhMyciaoKFv20VMdw6jMKOwG/k9HcYmwe8XFRhg==
+"@exoskeleton/core@0.0.3-beta.1":
+  version "0.0.3-beta.1"
+  resolved "https://registry.npmjs.org/@exoskeleton/core/-/core-0.0.3-beta.1.tgz#932ab387402f994d9350b8da8d5150367b43705e"
+  integrity sha512-Q3XfZnFHvNP0qiy5bxqpKH1u10DQWVWgrxb/BSys2tlMb1Z5nGJNZVV8v6glYgm0dXb46rmyD73VcAODc6W8Rw==
   dependencies:
     "@bonbons/di" "1.4.1"
     "@types/camelcase" "4.1.0"
@@ -3725,7 +3727,7 @@ traverse@^0.6.6:
   resolved "https://registry.npmjs.org/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
   integrity sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=
 
-ts-node@^7.0.1:
+ts-node@7.0.1, ts-node@^7.0.1:
   version "7.0.1"
   resolved "https://registry.npmjs.org/ts-node/-/ts-node-7.0.1.tgz#9562dc2d1e6d248d24bc55f773e3f614337d9baf"
   integrity sha512-BVwVbPJRspzNh2yfslyT1PSbl5uIk03EZlb493RKHN4qej/D06n1cEhjlOJG69oFsE7OT8XjpTUcYf6pKTLMhw==
@@ -3755,7 +3757,7 @@ ts-simple-ast@12.4.0:
     tslib "^1.9.0"
     typescript "2.9.1"
 
-tsconfig-paths@^3.7.0:
+tsconfig-paths@3.8.0, tsconfig-paths@^3.7.0:
   version "3.8.0"
   resolved "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.8.0.tgz#4e34202d5b41958f269cf56b01ed95b853d59f72"
   integrity sha512-zZEYFo4sjORK8W58ENkRn9s+HmQFkkwydDG7My5s/fnfr2YYCaiyXe/HBUcIgU8epEKOXwiahOO+KZYjiXlWyQ==

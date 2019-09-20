@@ -1,3 +1,3 @@
 const runner = require("./pkg.base");
 
-runner({ rc: true, useStamp: true });
+runner({ rc: "beta", add: 1, useStamp: false });
