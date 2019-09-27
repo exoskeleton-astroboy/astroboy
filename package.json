@@ -1,12 +1,12 @@
 {
   "name": "@exoskeleton/astroboy",
-  "version": "0.0.2-beta.6",
+  "version": "0.0.2-beta.7",
   "main": "index.js",
   "repository": "https://github.com/exoskeleton-astroboy/astroboy.git",
   "author": "Big Mogician <bigmogician@outlook.com>",
   "license": "MIT",
   "dependencies": {
-    "@exoskeleton/core": "0.0.3-beta.4",
+    "@exoskeleton/core": "0.0.3-beta.5",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
