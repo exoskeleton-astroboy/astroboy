@@ -2,7 +2,7 @@ import path from "path";
 import defaultFramework from "astroboy";
 import { Constructor } from "@bonbons/di";
 import {
-  Server,
+  ExoServer,
   RENDER_RESULT_OPTIONS,
   JSON_RESULT_OPTIONS
 } from "@exoskeleton/core";
@@ -44,7 +44,7 @@ export class CoreFramework extends defaultFramework {
  * @class Core
  * @extends {Server}
  */
-export class Core extends Server {
+export class Core extends ExoServer {
   /** 创建一个DI-Server */
   static Create(): Core;
   /**
