@@ -120,10 +120,10 @@
     tslib "^1.10.0"
     uuid "^3.3.2"
 
-"@exoskeleton/core@0.1.1-beta.1":
-  version "0.1.1-beta.1"
-  resolved "https://registry.npmjs.org/@exoskeleton/core/-/core-0.1.1-beta.1.tgz#996bc2690a93b02c0ebeaa9a56ca8101cce667c1"
-  integrity sha512-sUgdGGMAVNyj817dlcDK5vhlMnzELsGe2YoC/PRa5UfkSKaVTGcBrpe6b/2qAjVQ7psUi2iYJ5VeLnmnudoLHg==
+"@exoskeleton/core@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/@exoskeleton/core/-/core-0.1.1.tgz#b58cd974b155c1c51baac1327ea261f0e6e5e86c"
+  integrity sha512-92fJvfzarurCHR5Evv7l2Bknsw8hdpX63hhoJW0Z4CJCH/uAZNKhFDrqgRrbEwY6Yc2T+MKn08o4y0PBwlXvCw==
   dependencies:
     "@bonbons/di" "1.4.1"
     "@types/camelcase" "4.1.0"
